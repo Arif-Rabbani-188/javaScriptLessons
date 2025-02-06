@@ -8,21 +8,17 @@
 
 // Answer:
 
-var number = 11;
+var number = '11';
 
-console.log(number);
+console.log(nmumber);
 
-let a = isNaN('2025');
+var a = isNaN('11');
 
 console.log(a);
 
 // output: false
 
-// isNaN("37"); // false: "37" is converted to the number 37 which is not NaN
-// isNaN("37.37"); // false: "37.37" is converted to the number 37.37 which is not NaN
-// From MDN Web Docs
-
-a = isNaN(2-10);
+var a = isNaN(2-10);
 
 console.log(a);
 
