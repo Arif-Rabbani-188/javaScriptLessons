@@ -13,11 +13,11 @@ Ticket fare Calculator
 
 // output: Free
 
-var age = 15;
+var age; 
+
+age = prompt("Enter your age:"); 
 
 var student = true;
-
-// output: 400 tk
 
 // var age = 65;
 
