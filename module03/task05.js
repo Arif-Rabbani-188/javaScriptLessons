@@ -6,6 +6,8 @@ var destination = ['teknaf', 'kuakata', 'tetuliya'];
 // Use the concat method to combine the two arrays into a new array.
 var combined = fruits.concat(destination);
 
+// // Syntax : string.concat(string1, string2, ..., stringX)
+
 // Print both the original arrays and the combined array using console.log().
 
 console.log(fruits);
