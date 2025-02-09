@@ -3,7 +3,7 @@
 let i = 1;
 let tableNumber = 5;
 
-while(i <= 10){
-    console.log(tableNumber, '*', i, '=', i*tableNumber);
-    i++;
+while (i <= 10) {
+  console.log(tableNumber, "*", i, "=", i * tableNumber);
+  i++;
 }

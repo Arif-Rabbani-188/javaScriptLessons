@@ -8,16 +8,15 @@ while (i <= 131) {
   i += 2;
 }
 
-console.log('sum=', sum);
-
+console.log("sum=", sum);
 
 /* Subtask-2: Display sum of all the even numbers from 206 to 311. */
 
 i = 206;
 
 while (i <= 311) {
-    sum += i;
-    i += 2;
-  }
-  
-  console.log('sum=', sum);
+  sum += i;
+  i += 2;
+}
+
+console.log("sum=", sum);
