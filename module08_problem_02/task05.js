@@ -15,11 +15,15 @@ const employees = [
   { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
 ];
 
+// console.log(Array.isArray(employees));
+
 function totalSalary(workers) {
   let toatalSalary = 0;
   for (let worker of workers) {
+    // worker[1] = { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
     toatalSalary =
       toatalSalary + worker.starting + worker.experience * worker.increment;
+      // totalSalary = 45000; ---> step 1
   }
 
   return toatalSalary;
